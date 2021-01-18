@@ -137,6 +137,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero-section {
+    padding: 115px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,5 +172,42 @@ img {
   .hero-section {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/desktop/hero_img@2x-min-1-2.jpg");
   }
+}
+
+.advantages-section {
+  padding: 60px 0;
+  background-color: var(--background-white-color);
+}
+
+.svg-wrapper {
+  width: 450px;
+  height: 120px;
+  background-color: var(--background-color-grey);
+  border-radius: 4px;
+  padding: 25px 190px;
+  margin-bottom: 30px;
+}
+
+.advantages-section-title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.advantages-item:not(:last-child) {
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=main.css.map */
