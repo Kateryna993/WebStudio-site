@@ -1,0 +1,18 @@
+@import './utils/visually-hidden';
+@import './utils/variables';
+@import './utils/mixins';
+
+//base
+@import './base/common';
+
+//components
+@import './base/container';
+@import './components/page-header';
+@import './components/hero-section';
+@import './components/advantages-section';
+@import './components/services-section';
+@import './components/team-section';
+@import './components/clients-section';
+@import './components/footer';
+@import './components/backdrop';
+

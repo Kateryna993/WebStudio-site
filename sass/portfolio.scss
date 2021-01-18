@@ -1,0 +1,13 @@
+@import './utils/visually-hidden';
+@import './utils/variables';
+@import './utils/mixins';
+
+//base
+@import './base/common';
+
+//components
+@import './base/container';
+@import './components/page-header';
+@import './components/footer';
+@import './components/gallery';
+@import './components/backdrop';

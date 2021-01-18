@@ -1,0 +1,39 @@
+// .advantages-section {
+//     padding: 94px 0;
+//     background-color: var(--background-white-color);
+// }
+
+// .advantages-list {
+//     display: flex;
+// }
+
+// .svg-wrapper {
+//     width: 270px;
+//     height: 120px;
+//     display: flex;
+//     justify-content: center;
+//     padding: 25px 100px;
+//     margin-bottom: 30px;
+//     background-color: var(--background-color-grey);
+//     border-radius: 4px;
+// }
+
+// .advantages-section-title {
+//     margin-bottom: 10px;
+//     @include font(700, 14px, 1.142, 0.03em);
+//     text-transform: uppercase;
+//     color: var(--primary-text-color);
+// }
+
+// .advantages-item {
+//     min-width: 270px;
+    
+//     & + & {
+//         margin-left: 30px;
+//     }
+// }
+
+// .advantages-text {
+//     @include font(400, 14px, 1.714, 0.03em);
+//     color: var(--secondary-text-color);
+// }

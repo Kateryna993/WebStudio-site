@@ -1,0 +1,111 @@
+// .header {
+//     display: flex;
+//     align-items: center;
+//     /* padding: 32px 0; */
+//     border-bottom: 1px solid rgba(236, 236, 236, 1);
+
+//     & .address {
+//     margin-left: auto;
+//     }
+    
+//     & .container {
+//     display: flex;
+//     align-items: center;
+//     margin: 0 auto
+//     }
+    
+//     & .logo {
+//     margin-right: 93px;
+//     }
+// }
+
+// .nav {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .nav-list,
+// .address-list {
+//     display: flex;
+
+//     & {
+//         @include font(500, 14px, 1.142, 0.02em);
+//     }
+// }
+
+// .nav-list-item:not(:last-child) {
+//     margin-right: 50px;
+// }
+
+// .address-list-item {
+//     /* outline: 1px solid teal; */
+//     display: flex;
+//     align-items: center;
+
+//     &:not(:last-child) {
+//         margin-right: 30px;
+//     }
+// }
+
+// .contact-item {
+//     display: flex;
+//     align-items: center;
+//     padding: 32px 0;
+//     transition: color 250ms var(--timing-function);
+
+//     .address-list-item>& {
+//         color: var(--secondary-text-color);
+//     }
+
+//     .address-list-item>&:hover, .address-list-item>&:focus {
+//         color: var(--accent-color);
+//     }
+// }
+
+// .address-icon {
+//     margin-right: 10px;
+//     fill: currentColor;
+// }
+
+// .logo, .footer-logo {
+//     font-family: var(--secondary-font);
+//     @include font(700, 26px, 1.142, 0.03em);
+//     letter-spacing: 0.03em;
+//     color: var(--logo-black-color);
+// }
+
+// .logo-accent {
+//     color: var(--accent-color);
+// }
+
+// .nav-list-link {
+//     position: relative;
+//     padding: 32px 0;
+//     color: var(--primary-text-color);
+//     transition: color 250ms var(--timing-function);
+    
+//     &.current::after {
+//         content: "";
+//         position: absolute;
+//         left: 0;
+//         bottom: 0px;
+//         display: block;
+//         width: 100%; 
+//         height: 4px;
+//         border-radius: 2px;
+//         background-color: var(--accent-color);
+//     }
+    
+//     &:hover, 
+//     &:focus, 
+//     .current {
+//         color: var(--accent-color);
+//     }
+// }
+
+
+
+
+
+
+
