@@ -1,6 +1,6 @@
 .hero-section {
   max-width: 1600px;
-  padding: 115px 58px;
+  padding: 115px 0;
   min-height: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -17,7 +17,6 @@
 }
 
 .main-title {
-  width: 360px;
   margin-bottom: 30px;
   text-align: center;
   @include font(900, 26px, 1.615, 0.06em);
@@ -54,7 +53,6 @@
 
 @media screen and (min-width: 768px) {
   .hero-section {
-    padding: 115px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,7 +80,6 @@
 
 @media screen and (min-width: 1200px) {
   .hero-section {
-    max-width: 1600px;
     padding: 200px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
