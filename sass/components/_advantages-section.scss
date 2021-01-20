@@ -45,6 +45,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .advantages-section {
+    padding: 94px 0;
+  }
+
   .advantages-item {
     width: calc((100% - 4 * 30px) / 4);
   }
