@@ -88,6 +88,40 @@ img {
   }
 }
 
+.header {
+  padding: 10px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo,
+.footer-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
+  color: var(--logo-black-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
 .contacts {
   padding: 60px 0;
   background-color: var(--background-color-dark);
@@ -189,7 +223,7 @@ img {
 
 .email-input {
   width: 450px;
-  height: 50px;
+  min-height: 50px;
   margin-top: 20px;
   padding-left: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -199,7 +233,7 @@ img {
   color: var(--white-text-color);
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 470px) and (min-width: 320px) {
   .email-input {
     width: 280px;
   }
@@ -269,7 +303,7 @@ img {
     margin-left: 93px;
   }
   .email-input {
-    max-width: 358px;
+    width: 358px;
   }
   .footer-form {
     display: flex;

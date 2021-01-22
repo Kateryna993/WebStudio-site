@@ -88,6 +88,40 @@ img {
   }
 }
 
+.header {
+  padding: 10px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo,
+.footer-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
+  color: var(--logo-black-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
 .hero-section {
   max-width: 1600px;
   padding: 115px 0;
@@ -312,9 +346,8 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.employee-image {
-  display: block;
-  margin-bottom: 30px;
+.employee-card-content {
+  padding: 24px;
 }
 
 .employee-name {
@@ -387,6 +420,9 @@ img {
   .employee {
     width: calc((100% - 4 * 30px) / 4);
   }
+  .employee-card-content {
+    padding: 30px;
+  }
 }
 
 .clients {
@@ -444,6 +480,9 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .clients {
+    padding: 94px 0;
+  }
   .company {
     width: calc((100% - 6 * 30px) / 6);
     margin: 15px;
@@ -551,7 +590,7 @@ img {
 
 .email-input {
   width: 450px;
-  height: 50px;
+  min-height: 50px;
   margin-top: 20px;
   padding-left: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -561,7 +600,7 @@ img {
   color: var(--white-text-color);
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 470px) and (min-width: 320px) {
   .email-input {
     width: 280px;
   }
@@ -631,7 +670,7 @@ img {
     margin-left: 93px;
   }
   .email-input {
-    max-width: 358px;
+    width: 358px;
   }
   .footer-form {
     display: flex;

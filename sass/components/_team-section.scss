@@ -18,10 +18,14 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.employee-image {
-  display: block;
-  margin-bottom: 30px;
+.employee-card-content {
+  padding: 24px;
 }
+
+// .employee-image {
+//   display: block;
+//   margin-bottom: 30px;
+// }
 
 .employee-name {
   //   margin-top: 30px;
@@ -90,6 +94,9 @@
 
   .employee {
     width: calc((100% - 4 * 30px) / 4);
+  }
+  .employee-card-content {
+    padding: 30px;
   }
 }
 
