@@ -139,6 +139,7 @@ img {
 }
 
 .menu-container {
+  display: none;
   position: absolute;
   top: 100%;
   left: 0;
@@ -150,6 +151,10 @@ img {
   font-size: 18px;
   line-height: 1.166;
   letter-spacing: 0.02em;
+}
+
+.menu-container.is-open {
+  display: block;
 }
 
 .nav-list {
