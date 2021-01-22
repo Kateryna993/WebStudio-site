@@ -353,7 +353,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 77px 24px;
+  padding: 63px 24px;
   transform: translateY(100%);
   transition: transform 250ms var(--timing-function);
   background-color: rgba(33, 150, 243, 0.9);
@@ -397,9 +397,6 @@ img {
     justify-content: center;
     margin-bottom: 30px;
   }
-  .project-item-overlay {
-    padding: 49px 24px;
-  }
   .projects-list {
     display: flex;
     flex-wrap: wrap;
@@ -415,6 +412,9 @@ img {
   .project-text-wrapper.first-card {
     padding-bottom: 56px;
   }
+  .project-item-overlay {
+    padding: 20px 24px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -424,11 +424,11 @@ img {
   .filter-list {
     margin-bottom: 50px;
   }
-  .project-item-overlay {
-    padding: 63px 24px;
-  }
   .projects-item {
     width: calc((100% - 3 * 30px) / 3);
+  }
+  .project-item-overlay {
+    padding: 35px 24px;
   }
 }
 /*# sourceMappingURL=portfolio.css.map */
