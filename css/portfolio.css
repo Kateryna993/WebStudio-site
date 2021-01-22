@@ -27,6 +27,7 @@
 }
 
 body {
+  color: var(--primary-text-color);
   font-family: var(--main-font);
   margin: 0;
 }
@@ -99,8 +100,7 @@ img {
   justify-content: space-between;
 }
 
-.logo,
-.footer-logo {
+.logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 24px;
@@ -120,6 +120,84 @@ img {
   padding: 0;
   border: none;
   background-color: transparent;
+}
+
+.menu-button .icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
+.header {
+  position: relative;
+}
+
+.menu-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 60px;
+  background-color: var(--background-color-white);
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.166;
+  letter-spacing: 0.02em;
+}
+
+.nav-list {
+  margin-bottom: 60px;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.nav-list-link {
+  position: relative;
+  color: var(--primary-text-color);
+  transition: color 250ms var(--timing-function);
+}
+
+.nav-list-link.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+}
+
+.nav-list-link:hover, .nav-list-link:focus,
+.nav-list-link .current {
+  color: var(--accent-color);
+}
+
+.contact-item {
+  transition: color 250ms var(--timing-function);
+}
+
+.address-list-item > .contact-item {
+  color: var(--secondary-text-color);
+}
+
+.address-list-item > .contact-item:hover,
+.address-list-item > .contact-item:focus {
+  color: var(--accent-color);
+}
+
+.address-list-item:not(:last-child) {
+  margin-bottom: 16px;
 }
 
 .contacts {

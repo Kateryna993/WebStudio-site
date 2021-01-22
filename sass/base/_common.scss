@@ -1,20 +1,21 @@
 body {
-    font-family: var(--main-font);
-    margin: 0;
+  color: var(--primary-text-color);
+  font-family: var(--main-font);
+  margin: 0;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 
 h1,
@@ -23,15 +24,15 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0;
-}  
+  margin: 0;
+}
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
