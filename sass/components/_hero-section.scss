@@ -51,6 +51,12 @@
   cursor: pointer;
 }
 
+@media screen and (min-width: 320px) {
+  .main-title {
+    @include font(900, 22px, 1.9, 0.06em);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero-section {
     display: flex;
