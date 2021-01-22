@@ -124,6 +124,7 @@ img {
 .menu-container {
   background-color: var(--background-color-white);
   text-align: center;
+  z-index: 1;
 }
 
 .menu-container.is-open {
