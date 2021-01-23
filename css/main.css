@@ -1051,7 +1051,7 @@ img {
   }
   .modal {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     max-width: 450px;
     width: 100%;
@@ -1066,6 +1066,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .modal {
+    top: 50%;
     min-width: 528px;
     max-height: 581px;
   }
