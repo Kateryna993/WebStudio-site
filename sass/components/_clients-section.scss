@@ -59,6 +59,11 @@
     width: calc((100% - 6 * 30px) / 6);
     margin: 15px;
   }
+
+  .clients-title {
+    @include font(700, 36px, 1.166, 0.03em);
+    margin-bottom: 50px;
+  }
 }
 
 // .clients {

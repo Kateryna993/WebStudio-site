@@ -196,6 +196,7 @@
 
   .address-list {
     display: flex;
+    @include font(500, 14px, 1.142, 0.02em);
   }
 }
 //////

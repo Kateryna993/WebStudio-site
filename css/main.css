@@ -293,6 +293,10 @@ img {
   }
   .address-list {
     display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
   }
 }
 
@@ -430,6 +434,9 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .advantages-section-title {
+    text-align: left;
+  }
   .advantages-list {
     display: flex;
     flex-wrap: wrap;
@@ -591,6 +598,13 @@ img {
   .team-section {
     padding: 94px 0;
   }
+  .team-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+  }
   .employee {
     width: calc((100% - 4 * 30px) / 4);
   }
@@ -660,6 +674,13 @@ img {
   .company {
     width: calc((100% - 6 * 30px) / 6);
     margin: 15px;
+  }
+  .clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
   }
 }
 
